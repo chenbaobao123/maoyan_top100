@@ -73,7 +73,6 @@ class MaoyanSpider(object):
             for result in results:
                 self.save(result)
 
-    
 if __name__ == '__main__':
     maoyanspider = MaoyanSpider()
     maoyanspider.run()
